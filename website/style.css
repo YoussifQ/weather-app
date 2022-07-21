@@ -1,0 +1,161 @@
+
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+    /* display: grid; */
+    /* grid-auto-rows: minmax(150px, auto); */
+    /* grid-template-columns:  */
+    height:100vh;
+    background: url(./ocean.jpg) no-repeat center center fixed;
+   
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    justify-content: center;
+    /* grid-gap:z/ 1em; */
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1{
+    margin: 0;
+}
+.holder{
+    margin: 0;
+    
+}
+
+.entry{
+    width: 30%;
+    background: rgb(0 0 0 / 30%);
+    margin-left: 33%;
+    margin-top: 40px;
+    color: white;
+}
+    
+
+#entryHolder{
+
+}
+
+#date{
+
+}
+
+#temp{
+
+}
+
+#content{
+
+}
+
+.headline {
+    text-align: center;
+    margin: 0%;
+}
+.title{
+
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    margin-top: 50px;
+    display:block;
+    font-size: 27px;
+    text-align: center;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    background:#22b2da;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button{
+    width: 400px;
+    height: 100px;
+    background: #3b4a6b;
+    color: #f0d43a;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    background:#22b2da;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+ 
+#zip{
+    margin-top: 20px;
+    margin-left: 30%;
+    font-size: 15px;
+    background: #5c7581a8;
+    width: 40%;
+    border: none;
+    border-radius: 15px;
+    height: 56px;
+    text-align: center;
+    color: white;
+    display: block;
+    resize: none;
+}
+#feelings{
+    margin-left: 30%;
+    margin-top: 20px;
+    background: #5c7581a8;
+    width: 40%;
+    border: none;
+    border-radius: 15px;
+    height: 56px;
+    text-align: center;
+    color: white;
+    display: block;
+    font-size: 15px;
+    resize: none;
+}
+#zip::placeholder,
+#feelings::placeholder{
+  color: white;
+  font-family: sans-serif;
+  line-height: 38px;
+}
+#generate{
+    margin-top: 30px;
+    margin-left: 40%;
+    background: #5dcaffa8;
+    width: 20%;
+     border: none;
+    border-radius: 15px;
+    height: 56px;
+    text-align: center;
+    color: white;
+    display: block;
+    font-size: 15px;
+    resize: none;
+}
